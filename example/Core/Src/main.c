@@ -111,9 +111,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  //HAL_Delay(500);
-	  //char msg[] = "Eae patrao\n";
-	  //HAL_UART_Transmit(&huart1, (uint8_t *) msg, strlen(msg), HAL_MAX_DELAY);
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
