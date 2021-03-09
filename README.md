@@ -5,10 +5,6 @@ This project is a simple example demonstrating the behavior of the ADC periphera
 
 All the behavior of the project is described (in Portuguese) in the document [AN_G474RE_ADC_Application_Note.pdf](https://github.com/NanderSantos/My-STM32-ADC-AN/blob/main/doc/AN_G474RE_ADC_Application_Note.pdf). However, in a simplified way, the ADC was configured to collect voltage values ​​from a potentiometer in continuous conversion operation mode, for a single channel and using DMA, and transmit these values ​​through the serial to a PC in order to visualize the values collected.
 
-<p align="center">
-  <img src="images/serial.png" width="500" title="hover text">
-</p>
-
 ## Example
 
 ### Includes
@@ -52,3 +48,11 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef * hadc) {
 ```
 
 This ADC interrupt callback is called whenever a conversion is completed by the ADC and the EOC signal is triggered. It is responsible for identifying the position of the buffer in which the new data was stored by the DMA and for transmitting that data through the UART
+
+### Results
+
+An example of the data received on the computer via the serial can be seen in the image below. The data shown was captured when the potentiometer value was in transition.
+
+<p align="center">
+  <img src="images/serial.png" width="500" title="hover text">
+</p>
