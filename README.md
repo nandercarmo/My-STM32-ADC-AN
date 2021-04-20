@@ -1,11 +1,15 @@
-# My-STM32-ADC-AN
-This project is a simple example demonstrating the behavior of the ADC peripheral of the STM32 NUCLEO-G474RE kit, as described in the Application Note available in the 'doc' directory of this repository.
+#	⌚	My-STM32-ADC-AN
+This project is a simple example demonstrating the behavior of the **ADC** peripheral of the **STM32 NUCLEO-G474RE** kit, as described in the Application Note available in the 'doc' directory of this repository.
 
-## The Application Note  
+---
+
+##	📖	The Application Note  
 
 All the behavior of the project is described (in Portuguese) in the document [AN_G474RE_ADC_Application_Note.pdf](https://github.com/NanderSantos/My-STM32-ADC-AN/blob/main/doc/AN_G474RE_ADC_Application_Note.pdf). However, in a simplified way, the ADC was configured to collect voltage values ​​from a potentiometer in continuous conversion operation mode, for a single channel and using DMA, and transmit these values ​​through the serial to a PC in order to visualize the values collected.
 
-## Example
+---
+
+##	📩	Example
 
 ### Includes
 
