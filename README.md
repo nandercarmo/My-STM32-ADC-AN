@@ -1,4 +1,13 @@
 #	⌚	My-STM32-ADC-AN
+
+<div align="left">
+    <img src="https://img.shields.io/badge/language-c-blue">
+    <img src="https://img.shields.io/badge/hardware-stm32-green">
+    <img src="https://img.shields.io/badge/license-MIT-blueviolet">
+</div>
+
+---
+
 This project is a simple example demonstrating the behavior of the **ADC** peripheral of the **STM32 NUCLEO-G474RE** kit, as described in the Application Note available in the 'doc' directory of this repository.
 
 ---
